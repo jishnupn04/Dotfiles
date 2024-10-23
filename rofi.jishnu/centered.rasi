@@ -1,0 +1,51 @@
+configuration {
+  location: 0;
+  anchor: center;
+  width: 50%;
+  y-offset: 0;
+  x-offset: 0;
+  lines: 10;
+}
+
+window {
+  background-color: #1d1f21; /* Dark background */
+  border-color: #282c34;     /* Slightly lighter border color */
+  border: 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+listview {
+  background-color: #282c34; /* Darker background for list items */
+  border-color: #1d1f21;     /* Matching border color */
+  border: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  scrollbar: false;
+}
+
+element {
+  background-color: #282c34; /* Dark background for each item */
+  color: #abb2bf;            /* Light text color for items */
+  border-radius: 5px;
+}
+
+element.selected.active {
+  background-color: #61afef; /* Highlight color for selected item */
+  color: #1e1e1e;            /* Darker text color for selected item */
+}
+
+element.alternate.normal {
+  background-color: #2c313c; /* Slightly different background for alternate items */
+  color: #abb2bf;            /* Consistent text color */
+}
+
+inputbar {
+  background-color: #1e1e1e; /* Darker background for input field */
+  border-radius: 5px;
+}
+
+prompt {
+  color: #81a2be; /* Color for prompt text */
+}
+
